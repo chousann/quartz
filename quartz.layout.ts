@@ -5,7 +5,12 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.ChatWidget({
+      src: "http://192.168.1.22:3001/session/d79c8b92-f650-4039-9a1b-d8fa55fe27b8",
+      title: "AI Chat",
+    }),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
