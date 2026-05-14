@@ -15,3 +15,15 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+
+quartz
+npx quartz build --serve --port 3000 --wsPort 3002
+
+claude code webui
+npx @cloudcli-ai/cloudcli@latest --port 3001
+
+ln -s /opt/workspaces/claude-skills/engineering/llm-wiki/wiki/* /opt/workspaces/quartz/content/
+
+ln -s /opt/workspaces/claude-skills/engineering/llm-wiki/wiki/* /opt/workspaces/nodeonvercel/src/nodejs/llm-wiki/wiki/
+ln -s /opt/workspaces/claude-skills/engineering/llm-wiki/raw/* /opt/workspaces/nodeonvercel/src/nodejs/llm-wiki/raw/

@@ -35,7 +35,7 @@
   &__container {
     display: none;
     flex-direction: column;
-    width: min(400px, calc(100vw - 3rem));
+    width: min(800px, calc(100vw - 3rem));
     height: min(600px, calc(100vh - 6rem));
     background: var(--light);
     border: 1px solid var(--lightgray);

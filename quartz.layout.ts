@@ -7,7 +7,7 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [
     Component.ChatWidget({
-      src: "http://192.168.1.22:3001/session/d79c8b92-f650-4039-9a1b-d8fa55fe27b8",
+      src: "http://192.168.1.19:4200/chatview?userId=1&userName=llm%20wiki&userEmail=wintersoldiergmail.com&userAvatar=assets%2Fimages%2Fwinter-soldier.jpg",
       title: "AI Chat",
     }),
   ],
